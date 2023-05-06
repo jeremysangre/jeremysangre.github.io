@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar-top">
+            <ul class="navbar-top-ul">
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">Registro</a>
+                </li>
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">Iniciar sesión</a>
+                </li>
+                <li class="navbar-top-item">
+                    <a href="#" class="navbar-top-links">
+                        <i class="zmdi zmdi-shopping-cart"></i> Carrito
+                        <!-- <i class="zmdi zmdi-chevron-down"></i> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <header class="nabvar-mobile is-size-5-mobile">
+                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
+                <a class="navbar-mobile-link has-text-white" href="index.html">OXFORD</a>
+                <a class="navbar-mobile-link has-text-white" href="#"><i class="zmdi zmdi-shopping-cart"></i> Vacio</a>
+            </header>
+            <nav class="nav-menu --nav-dark-light" id="mySidenav">
+                <form class="form-group " action="#">
+                    <div class="form-group-container">
+                        <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
+                        <input type="text" class="form-group-input" placeholder="Buscar...">
+                    </div>
+                </form>
+
+                <a class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="index.html">OXFORD</a>
+                <ul class="nav-menu-ul">
+                    <li class="nav-menu-item" id="men">
+                        <a class="nav-menu-link link-submenu active" href="#">Hombre <i
+                                class="zmdi zmdi-chevron-down"></i></a>
+                        <div class="container-sub-menu">
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Casual</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisas Polo</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Formal</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Trajes</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">Ofertas de Verano</h1>
+                                <h2 class="ads-h2">Desde el 50% de descuento</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item" id="women">
+                        <a href="#" class="nav-menu-link link-submenu">Mujer <i class="zmdi zmdi-chevron-down"></i> </a>
+                        <div class="container-sub-menu">
+
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Casual</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisas Polo</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Formal</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Trajes</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">Ofertas de Verano</h1>
+                                <h2 class="ads-h2">Desde el 50% de descuento</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item"><a href="brand.html" class="nav-menu-link">La Marca</a></li>
+                    <li class="nav-menu-item"><a href="lookbook.html" class="nav-menu-link">Lo ultimo</a></li>
+                    <li class="nav-menu-item"><a href="login.html" class="nav-menu-link">Registro</a></li>
+                    <li class="nav-menu-item"><a href="lookbook.html" class="nav-menu-link">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <div class="banner banner-second">
+        <div class="banner-container ">
+            
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-fifths-desktop">
+                <div class="slider" id="slider">
+                    <div class="slider-img-container">
+                        <img src="img/item-1.png" alt="camiseta" class="active slider-item">
+                    </div>
+                    <div class="slider-img-container">
+                        <img src="img/item-2.png" alt="camiseta" class="slider-item">
+                    </div>
+                    <div class="slider-img-container">
+                        <img src="img/item-5.png" alt="camiseta" class="slider-item">
+                    </div>
+                    <div class="slider-button-left slider-buttons" onclick="previus()">
+                        <i class="zmdi zmdi-chevron-left zmdi-hc-3x"></i>
+                    </div>
+                    <div class="slider-button-right slider-buttons" onclick="next()">
+                        <i class="zmdi zmdi-chevron-right zmdi-hc-3x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="is-size-4">Nuestros diseños</h3>
+                <div class="course-rating-container">
+                    <div class="rating-stars" style="--rating: 86%">
+                    </div>
+                </div>
+                <p class=""> 2 comentarios | Compartir: <a class="icon-socials" href="#"><i
+                            class="zmdi zmdi-facebook"></i></a>
+                    <a class="icon-socials" href="#"><i class="zmdi zmdi-twitter"></i></a>
+                    <a class="icon-socials" href="#"><i class="zmdi zmdi-instagram"></i></a>
+                    <a class="icon-socials" href="#"><i class="zmdi zmdi-pinterest"></i></a>
+                    <a class="icon-socials" href="#"><i class="zmdi zmdi-email"></i></a>
+                </p>
+                <h2 class="price is-size-4"><sup>$</sup>199.99</h2>
+                <p class="has-text-grey"> <strong>Disponibilidad:</strong> En stock</p>
+                <p class="has-text-grey"><strong>Código del procuto: </strong>#789485</p>
+                <p class="text-default">Antes de comprar recuerda revisar bien el producto, si es el correcto que escogiste </p>
+                <form action="#" class="form-control">
+                    <div class="columns is-multiline">
+                        <div class="column is-one-third">
+                            <label for="color">Color</label>
+                            <select class="form-control-field" id="color">
+                                <option value="#">Color 1</option>
+                                <option value="#">Color 2</option>
+                                <option value="#">Color 3</option>
+                            </select>
+
+                        </div>
+                        <div class="column is-one-third">
+
+                            <label for="size">Tamaño</label>
+                            <select class="form-control-field" id="size">
+                                <option value="#">Talla S</option>
+                                <option value="#">Talla M</option>
+                                <option value="#">Talla L</option>
+                                <option value="#">Talla X</option>
+                                <option value="#">Talla XXL</option>
+                            </select>
+                        </div>
+                        <div class="column is-one-third">
+                            <label for="quality">Cantidad</label>
+                            <input class="form-control-field" type="number">
+                        </div>
+                        <div class="column is-full is-marginless">
+                            <button class="btn btn-default btn-outline"><i class="zmdi zmdi-shopping-cart"></i>
+                                Agregar al carrito</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="columns is-tablet">
+            <div class="column">
+                <div class="tabs-container">
+                    <ul class="tabs" id="tabs">
+                        <li class="tabs-item active-tab">Descripción</li>
+                        <li class="tabs-item">Video</li>
+                        <li class="tabs-item">Tamaños</li>
+                        <li class="tabs-item">Envío y reembolso</li>
+                        <li class="tabs-item">Comentarios</li>
+                    </ul>
+                    <div class="tabs-panels">
+                        <div class="tab-panel active-panel">
+                            <div class="container">
+                                <div class="columns">
+                                    <div class="column">
+                                        <h2 class="is-size-4">Descripción</h2>
+                                        <p>Se busca satisfacer las necesidades de los clientes logrando que nuestros productos sean de muy Buena calidad, incluyendo nuevas tendencias dentro de la moda, con un personal de trabajo capacitado para la prestación de un excelente servicio y compromiso con la empresa Visión Ser una organización reconocida en el mundo de la moda enfocada en la elegancia de la mujer y del hombre, buscando siempre una buena reputación y acreditación gracias a nuestros productos y servicios, manteniendo un alto nivel de permanencia...</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-panel">
+                            <div class="container">
+                                <div class="columns">
+                                    <div class="column is-half">
+
+                                        <div class="video-container">
+                                            <iframe src="https://www.youtube.com/embed/MDgZLV6gqV0" frameborder="0"
+                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="colulmn is-half">
+
+                                        <h2 class="is-size-4">Video</h2>
+                                        <p>Acá podrás ver un poco de lo que se trata nuestra empresa por medio de este video.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel">
+                            <h2 class="is-size-4">Tamaños</h2>
+                            <p>Si llegas a tener un problema con la talla podrás hacer un rembolso durante 10 días después de haber recibido el pedido</p>
+                        </div>
+                        <div class="tab-panel">
+                            <h2 class="is-size-4">Envios y reembolsos</h2>
+                            <p>Nuestra política tiene una duración de 10 días calendario. Si más de 10 días han pasado desde Tu compra, por desgracia no podemos ofrecer un reembolso o cambio.
+                                Para ser elegible para una devolución, los artículos devueltos deben estar en la condición original (a menos que estén defectuosos) es decir, nuevos, sin usar, en condición de comercializarse de nuevo. Todas las etiquetas deben estar en su lugar. 
+                                Si la mercancía llega sin cumplir las condiciones anteriores será devuelta al comprador. No se emitirá ningún crédito y el valor de la devolución será por cuenta del comprador perdiendo todo el derecho de reclamar. 
+                                Un pedido solo podrá ser cancelado solo si aún no ha sido despachado y para ello el comprador deberá contactarnos manifestando su intención de cancelación al correo info@oxford.com para realizar este contacto el comprador tendrá un plazo máximo de 8 horas después de haber ejecutado la compra. 
+                                Para completar tu devolución, requerimos un recibo o prueba de compra.
+                                </p>
+                        </div>
+                        <div class="tab-panel">
+                            <h2 class="is-size-4">Comentarios</h2>
+                            <div class="container">
+                                <div class="columns is-multiline">
+                                    <div class="column is-full">
+                                        <div class="comment-container">
+                                            <img class="avatar" src="img/user-men.jpg" alt="">
+                                            <div class="comment">
+                                                <div class="course-rating-container">
+                                                    <div class="rating-stars" style="--rating: 100%">
+                                                    </div>
+                                                    <h3 class="is-size-5">Juan Jose </h3>
+                                                </div>
+                                                <p>Fue mi primera compra quede satisfecha por la rapidez y el envió, claro que volveré a comprar nuevamente. Gracias</p>
+                                                <span class="text">3 de marzo 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column is-full">
+                                        <div class="comment-container">
+                                            <img class="avatar" src="img/user-men2.jpg" alt="">
+                                            <div class="comment">
+                                                <div class="course-rating-container">
+                                                    <div class="rating-stars" style="--rating: 100%">
+                                                    </div>
+                                                    <h3 class="is-size-5">David Hernandez</h3>
+                                                </div>
+                                                <p>Me fascinan los diseños y el estilo de las prendas que adquirí, hice mi compra en línea y me dieron una atención súper personalizada lo cual me sirvió mucho a decidir. El envío súper rápido y me encantó tanto la tela como el corte de mi gabardina. Gracias. Los recomiendo.</p>
+                                                <span class="text">1 de enero 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Información</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">La marca</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Local stores</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Servicios </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Mapa del sitio</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Porqué comprar</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Envios y retornos</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Envios seguros</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Testimonios </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Award waining</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Etival trading</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Tu cuenta</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Iniciar sesión</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Registro</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver carrito </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver catálogo</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Track an order</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Catalogo</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para hombres</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para mujeres</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver tu Catalogo </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Borrar tu catalogo</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Datos de contacto</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Head</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para mujeres</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver tu Catalogo </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Borrar tu catalogo</a></li>
+                    </ul>
+                </div>
+                <div class="column is-full">
+                    <div class="footer-socials">
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-facebook"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-twitter"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-instagram"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bar-top">
+            <div class="container">
+                <a class="footer-bar-top-links" href="#">2023 OXFORD</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
